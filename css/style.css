@@ -448,7 +448,7 @@ Navigation Menu
 .nav-menu.open{
     visibility: visible;
     opacity:1;
-    z-index: 999;
+    z-index: 200;
     transition: all 0,3s ease;
 }
 

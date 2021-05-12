@@ -24,7 +24,7 @@
         document.querySelector(".fade-out-effect").classList.add("active");
         setTimeout(()=>{
             document.querySelector(".fade-out-effect").classList.add("active");
-        },300)
+        },200)
     }
 
     document.addEventListener("click",(event)=>{
@@ -140,15 +140,15 @@ function bodyScrollingToggle(){
                 //convert screenshots into array
                 screenshots = screenshots.split(",");
                 if(screenshots.length === 1){
+
                   prevBtn.style.display="none";
                   nextBtn.style.display="none";
 
                 }else{
+
                 prevBtn.style.display="block";
                 nextBtn.style.display="block";
-  
-                    
-                    
+
                 }
                 slideIndex = 0;
                 popupToggle();
