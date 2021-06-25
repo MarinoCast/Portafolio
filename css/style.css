@@ -815,12 +815,16 @@ Service section
     max-width:33.33%;
     padding:15px;
     flex-wrap: wrap;
+    
 }
+
 .service-section .service-item-inner{
     padding: 50px 15px;
     border-radius: 5px;
     text-align:center;
     width: 100%;
+    min-width: 300px;
+    min-height: 300px;
 }
 .service-section .service-item-inner .icon{
     height:60px;
@@ -1266,8 +1270,10 @@ contact section
     border:none;
     background-color: transparent;
     font-size: 16px;
-    padding:0 15px;
+    padding:0 117px;
     color:var(--text-black-700);
+    min-width: 300px;
+    min-heigth:300px;
 }
 .contact-section .input-group textarea.input-control{
     height: 184px;
